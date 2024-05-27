@@ -52,28 +52,63 @@
     text-align: center;
 }
 
-.button{
-    background-color: rgb(231, 245, 183);
-    text-align: center;
-}
-
-.button a{
-    color: rgb(103, 197, 16);
-}
-
-.button img{
-    width: 16%;
-    height: auto;
-}
-
 .activity-container{
     display: grid;
+    grid-template-rows: 100pt;
     grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    place-items: center;
 }
 
 .title-activity{
     grid-row: 1/2;
-    grid-column:3/6;
+    grid-column: 3/6;
     color: rgb(120, 159, 72);
     background-color: rgb(221, 249, 195)
+}
+
+.image-pixelart{
+    grid-row:2/3;
+    grid-column: 2/4;
+}
+
+.image-pixelart img{
+    width: 70%;
+    height: auto;
+}
+
+.text-pixelart{
+    grid-row: 2/3;
+    grid-column: 4/7;
+    color: rgb(137, 99, 17);
+}
+
+.text-gidaisai{
+    grid-row: 3/4;
+    grid-column: 2/4;
+    color: rgb(72, 224, 212);
+}
+
+.image-gidaisai{
+    grid-row: 3/4;
+    grid-column: 4/7;
+}
+
+.image-gidaisai img{
+    width: 80%;
+    height: auto;
+}
+
+.image-zooclub{
+    grid-row: 4/5;
+    grid-column:2/4;
+}
+
+.image-zooclub img{
+    width: 50%;
+    height: auto;
+}
+
+.text-zooclub{
+    grid-row: 4/5;
+    grid-column: 4/7;
 }
