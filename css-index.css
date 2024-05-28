@@ -1,14 +1,3 @@
-.head{
-    top: 5;
-    width: 100%;
-    height:40pt;
-    background-color: rgb(245, 208, 120);
-    color: rgb(137, 99, 17);
-    text-align: center;
-    font-family: 'Courier New';
-    text-align: center;
-}
-
 .header{
     background-color: rgb(253, 244, 222);
     text-align: center;
@@ -20,7 +9,6 @@
 
 .profile-container{
     display: grid;
-    grid-template-rows:300px;
     grid-template-columns: 1fr 4fr 6fr 1fr;
     place-items: center;
 }
@@ -54,7 +42,6 @@
 
 .activity-container{
     display: grid;
-    grid-template-rows: 100pt;
     grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
     place-items: center;
 }
