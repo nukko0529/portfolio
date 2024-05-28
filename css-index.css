@@ -1,0 +1,114 @@
+.head{
+    top: 5;
+    width: 100%;
+    height:40pt;
+    background-color: rgb(245, 208, 120);
+    color: rgb(137, 99, 17);
+    text-align: center;
+    font-family: 'Courier New';
+    text-align: center;
+}
+
+.header{
+    background-color: rgb(253, 244, 222);
+    text-align: center;
+}
+
+.title-profile{
+    text-align: center;
+}
+
+.profile-container{
+    display: grid;
+    grid-template-rows:300px;
+    grid-template-columns: 1fr 4fr 6fr 1fr;
+    place-items: center;
+}
+
+.profileimage{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.selfintroduction{
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+.title-activity{
+    background-color: rgb(245, 208, 120);
+    color: rgb(154, 128, 55);
+    text-align: center;
+}
+
+.link{
+    color: rgb(103, 197, 16);
+    text-align: center;
+}
+
+.image img{
+    width: 250pt;
+    height: auto;
+    text-align: center;
+}
+
+.activity-container{
+    display: grid;
+    grid-template-rows: 100pt;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+    place-items: center;
+}
+
+.title-activity{
+    grid-row: 1/2;
+    grid-column: 3/6;
+    color: rgb(120, 159, 72);
+    background-color: rgb(221, 249, 195)
+}
+
+.image-pixelart{
+    grid-row:2/3;
+    grid-column: 2/4;
+}
+
+.image-pixelart img{
+    width: 70%;
+    height: auto;
+}
+
+.text-pixelart{
+    grid-row: 2/3;
+    grid-column: 4/7;
+    color: rgb(137, 99, 17);
+}
+
+.text-gidaisai{
+    grid-row: 3/4;
+    grid-column: 2/4;
+    color: rgb(72, 224, 212);
+}
+
+.image-gidaisai{
+    grid-row: 3/4;
+    grid-column: 4/7;
+}
+
+.image-gidaisai img{
+    width: 80%;
+    height: auto;
+}
+
+.image-zooclub{
+    grid-row: 4/5;
+    grid-column:2/4;
+}
+
+.image-zooclub img{
+    width: 50%;
+    height: auto;
+}
+
+.text-zooclub{
+    grid-row: 4/5;
+    grid-column: 4/7;
+}

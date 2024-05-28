@@ -1,0 +1,24 @@
+.header{
+    color: rgb(99, 77, 23);
+    text-align: center;
+}
+
+.catroom{
+    width: 50%;
+    height: auto;
+}
+
+.coffee{
+    width: 30%;
+    height: auto;
+}
+
+.koara{
+    width:20%;
+    height: auto;
+}
+
+.kangaroo{
+    width: 60%;
+    height: auto;
+}
